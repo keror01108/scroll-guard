@@ -1,0 +1,16 @@
+{
+    "display_name": "화면 밀림 보정 (QR · HTML 복사)",
+    "loading_order": 200,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "author": "Codex",
+    "version": "1.0.0",
+    "auto_update": false,
+    "hooks": {
+        "enable": "onEnable",
+        "disable": "onDisable",
+        "delete": "onDisable",
+        "activate": "onEnable"
+    }
+}
